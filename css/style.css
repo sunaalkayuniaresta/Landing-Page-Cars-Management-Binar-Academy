@@ -1,0 +1,327 @@
+body {
+  font-family: Helvetica;
+}
+
+.navbar {
+  background-color: #f1f3ff !important;
+}
+
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#hero {
+  background: #f1f3ff;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+.btn-register {
+  background-color: #5cb85f;
+}
+
+.section-content {
+  padding-top: 30px;
+}
+
+.hero-title {
+  margin-top: 150px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+.hero-text {
+  width: 468px;
+  height: 60px;
+  left: 136px;
+  top: 301px;
+  margin-bottom: 3px;
+  text-align: justify;
+
+  /* Body/14/Light */
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.img-hero {
+  margin-top: 100px;
+}
+
+.check {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.text-content p {
+  text-align: justify;
+}
+
+.img-content .text-content {
+  margin-top: 250px;
+  margin-bottom: 250px;
+  padding-top: 30px;
+}
+/* Why Us */
+.why-us {
+  background-color: #fff;
+  padding-top: 90px;
+}
+
+.font-why-us h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.thumbs {
+  font-size: 16px;
+}
+
+#content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+
+#why-us {
+  background-color: #fff;
+}
+
+.card {
+  border-radius: 5%;
+  display: flex;
+}
+
+.style-why {
+  margin-top: 40px;
+}
+
+.card-title {
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card-section h5 {
+  margin-top: 10px;
+}
+
+/* testimonials */
+#testimonials {
+  padding-top: 50px;
+}
+
+.testimonials-caption h2 {
+  font-size: 24px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.testimonials-text p {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.stars {
+  color: #ffff00;
+}
+
+.content .text-black {
+  font-size: 12px;
+}
+
+/* carousel testimonial box */
+.single-box {
+  background-color: #f1f3ff !important;
+  border: 3px solid #e6f0fa;
+  border-radius: 10px;
+  padding: 20px 5px 10px;
+  overflow: hidden;
+  height: 575px;
+}
+
+.single-box .img-area {
+  float: left;
+  margin: 0;
+  padding: 25px 5px 5px 5px;
+  height: auto;
+}
+
+.single-box .content {
+  float: left;
+  padding-left: 10px;
+  width: 70%;
+}
+
+.single-box p {
+  margin: 10px 0px 10px 0px;
+  text-align: justify;
+  font-size: 12px;
+}
+
+/* for responsive version */
+@media (min-width: 481px) and (max-width: 767px) {
+  .owl-carousel .owl-item img {
+    display: block !important;
+    margin: 10px 170px 10px 160px;
+    padding: 10px 10px 10px 10px;
+    width: auto !important;
+  }
+
+  .stars-box {
+    display: flex;
+    margin: 10px 170px 10px 160px;
+  }
+
+  .single-box p {
+    margin: 20px -100px 10px 20px;
+    text-align: justify;
+    font-size: 12px;
+  }
+
+  .content .text-black {
+    margin: 20px -100px 0px 150px;
+  }
+}
+
+/* Banner */
+#banner {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.banner-card {
+  text-align: center;
+  background: #0d28a6;
+  border-radius: 8px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.banner-caption h2 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.banner-text h6 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 15px;
+  position: relative;
+}
+
+/* FAQ */
+.title-faq {
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.title-faq h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.font-faq {
+  font-size: 12px;
+}
+
+.form {
+  padding: 10px;
+  width: 100%;
+}
+
+.caption-faq {
+  font-size: 14px;
+}
+
+/* Footer-css */
+.footer-top {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.features h5 {
+  font-size: 16px;
+}
+
+footer .footer-links p {
+  color: #11245a;
+}
+
+footer .footer-links a {
+  color: #898fa1;
+}
+
+footer .footer-links a:hover {
+  color: #11245a;
+}
+
+.title-sm {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #11245a;
+}
+
+.icon-box {
+  height: 40px;
+  background-color: #fff;
+  color: #0d28a6;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  flex: none;
+  margin-right: 10px;
+}
+
+/* phone */
+@media only screen and (max-width: 767px) {
+  * {
+    font-size: 12px;
+    overflow-x: hidden;
+  }
+  body {
+    width: 100%;
+  }
+  .title-faq h2,
+  .font-why-us h2 {
+    font-size: 18px;
+  }
+  #hero {
+    width: 100%;
+  }
+  .img-hero {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .img-content img {
+    max-width: 100%;
+    height: max-content;
+  }
+}
+/* tablet */
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+}
